@@ -1,6 +1,6 @@
 <?php
 // Datos del servidor remoto
-$host = '10.0.2.2'; // CAMBIA POR LA IP DE TU WINDOWS SERVER
+$host = '10.0.2.15'; // CAMBIA POR LA IP DE TU WINDOWS SERVER
 $db   = 'db_almacen';
 $user = 'root';
 $pass = 'MiPasswordJava26';
