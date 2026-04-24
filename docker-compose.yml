@@ -1,0 +1,11 @@
+services:
+  web:
+    build: .
+    container_name: tienda_php_app
+    ports:
+      - "8080:80"
+    volumes:
+      - ./src:/var/www/html
+    # Esto es opcional pero ayuda si el server remoto está en tu misma red local
+    extra_hosts:
+      - "database.remote:192.168.1.100" # IP de tu Windows Server
