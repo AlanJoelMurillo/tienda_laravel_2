@@ -1,9 +1,9 @@
 <?php
 // Datos del servidor remoto
-$host = '192.168.1.100'; // CAMBIA POR LA IP DE TU WINDOWS SERVER
+$host = '10.0.2.2'; // CAMBIA POR LA IP DE TU WINDOWS SERVER
 $db   = 'db_almacen';
-$user = 'tu_usuario_remoto';
-$pass = 'tu_password_remoto';
+$user = 'root';
+$pass = 'MiPasswordJava26';
 $port = '3306'; 
 $charset = 'utf8mb4';
 
